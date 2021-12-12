@@ -29,8 +29,8 @@ return {
   command = {a = {fg = colors.fg, bg = colors.bg, gui = 'bold'}},
   replace = {a = {fg = colors.fg, bg = colors.bg, gui = 'bold'}},
   inactive = {
-    a = {fg = colors.gray1, bg = colors.bg, gui = 'bold'},
-    b = {fg = colors.gray1, bg = colors.bg},
-    c = {fg = colors.gray1, bg = colors.bg}
+    a = {fg = colors.fg, bg = colors.bg},
+    b = {fg = colors.fg, bg = colors.bg},
+    c = {fg = colors.fg, bg = colors.bg}
   }
 }
