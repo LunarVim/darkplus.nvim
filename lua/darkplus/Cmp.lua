@@ -1,8 +1,11 @@
 local Cmp = {
-		CmpItemAbbrDeprecated = {fg = "#ui3_blue", },
+		CmpItemAbbrDeprecated = {fg = C.ui3_blue, },
 		CmpItemAbbrMatch = {fg = C.ui3_blue, },
 		CmpItemAbbrMatchFuzzy = {fg = C.ui3_blue, },
-		CmpItemKind = {fg = C.purple, },
+		CmpItemKindFunction = {fg = C.purple, },
+		CmpItemKindMethod = {fg = C.purple, },
+		CmpItemKindVariable = {fg = C.light_blue, },
+		CmpItemKindKeyword = {fg = C.fg, },
 }
 
 return Cmp

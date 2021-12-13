@@ -89,7 +89,7 @@ local highlights = {
 		Bold = {style = "bold", },
 		Italic = {style = "italic", },
 		Ignore = {fg = C.cyan, bg = C.bg, style = "bold", },
-		Todo = {fg = C.red, bg = C.bg, style = "bold", },
+		Todo = {fg = C.magenta, bg = C.bg, style = "bold", },
 		Error = {fg = C.error_red, bg = C.bg, style = "bold", },
 		TabLine = {fg = C.light_gray, bg = C.alt_bg, },
 		TabLineSel = {fg = C.white, bg = C.alt_bg, },
