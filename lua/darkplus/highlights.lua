@@ -68,7 +68,7 @@ local highlights = {
 		StorageClass = {fg = C.blue, },
 		Structure = {fg = C.blue, },
 		Typedef = {fg = C.blue, },
-		Keyword = {fg = C.purple, },
+		Keyword = {fg = C.blue, },
 		Statement = {fg = C.purple, },
 		Conditional = {fg = C.blue, },
 		Repeat = {fg = C.purple, },
