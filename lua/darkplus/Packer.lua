@@ -4,6 +4,7 @@ local Packer = {
 		packerOutput = {fg = C.ui_purple, },
 		packerRelDate = {fg = C.gray, },
 		packerSuccess = {fg = C.success_green, },
+		packerStatusSuccess = {fg = C.ui4_blue, },
 }
 
 return Packer
