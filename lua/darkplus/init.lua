@@ -27,12 +27,13 @@ local DiffView = require("darkplus.DiffView")
 local Bookmarks = require("darkplus.Bookmarks")
 local Bqf = require("darkplus.Bqf")
 local Cmp = require("darkplus.Cmp")
+local Packer = require("darkplus.Packer")
 local SymbolOutline = require("darkplus.SymbolOutline")
 local Misc = require("darkplus.Misc")
 
 
 local skeletons = {
-    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, SymbolOutline, Misc
+    highlights, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, Lir, Buffer, StatusLine, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Packer, SymbolOutline, Misc
 }
 
 for _, skeleton in ipairs(skeletons) do

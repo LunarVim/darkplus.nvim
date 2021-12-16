@@ -39,14 +39,15 @@ local colors = {
 	warning_orange = "#ff8800",
 	info_yellow = "#FFCC66",
 	hint_blue = "#4FC1FF",
+	success_green = "#14C50B",
 	purple_test = "#ff007c",
 	cyan_test = "#00dfff",
 	ui_blue = "#264F78",
 	ui2_blue = "#042E48",
 	ui3_blue = "#0195F7",
-	cmp_light_blue = "#75BEFF",
-	cmp_orange = "#E8AB53",
-	cmp_purple = "#B180D7",
+	ui4_blue = "#75BEFF",
+	ui_orange = "#E8AB53",
+	ui_purple = "#B180D7",
 }
 
 return colors
