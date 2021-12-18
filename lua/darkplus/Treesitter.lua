@@ -53,6 +53,7 @@ local Treesitter = {
 		TSStructure = {fg = C.light_blue, },
 		TSStrong = {fg = C.blue, style = "bold", },
 		TSQueryLinterError = {fg = C.warning_orange, },
+		TreesitterContext = {bg = C.tree_gray, },
 }
 
 return Treesitter
