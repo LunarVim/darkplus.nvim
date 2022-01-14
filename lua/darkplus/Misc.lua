@@ -16,6 +16,12 @@ local Misc = {
 		yamlTSField = {fg = C.blue, },
 		luaFunc = {fg = C.yellow, },
 		luaFunction = {fg = C.blue, },
+		htmlH1 = {fg = C.fg, },
+		htmlH2 = {fg = C.fg, },
+		htmlH3 = {fg = C.fg, },
+		htmlH4 = {fg = C.fg, },
+		htmlH5 = {fg = C.fg, },
+		htmlH6 = {fg = C.fg, },
 }
 
 return Misc
