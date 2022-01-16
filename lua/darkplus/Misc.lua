@@ -40,7 +40,7 @@ local Misc = {
 		cssVendor = {fg = C.orange, },
 		cssValueNumber = {fg = C.light_green, },
 		cssValueLength = {fg = C.light_green, },
-		cssUnitDecorators = {fg = C.purple, },
+		cssUnitDecorators = {fg = C.light_green, },
 		cssStyle = {fg = C.light_blue, },
 		cssImportant = {fg = C.blue, },
 }
