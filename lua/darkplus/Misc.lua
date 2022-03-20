@@ -8,6 +8,10 @@ local Misc = {
 		debugPc = {bg = C.cyan, },
 		debugBreakpoint = {fg = C.red, style = "reverse", },
 		CodiVirtualText = {fg = C.hint_blue, },
+		SniprunVirtualTextOk = {fg = C.hint_blue, },
+		SniprunFloatingWinOk = {fg = C.hint_blue, },
+		SniprunVirtualTextErr = {fg = C.error_red, },
+		SniprunFloatingWinErr = {fg = C.error_red, },
 		CompeDocumentation = {bg = C.alt_bg, },
 		xmlTag = {fg = C.cyan, },
 		xmlTagName = {fg = C.cyan, },
@@ -51,6 +55,8 @@ local Misc = {
 		cssUnitDecorators = {fg = C.light_green, },
 		cssStyle = {fg = C.light_blue, },
 		cssImportant = {fg = C.blue, },
+		jsonKeyword = {fg = C.light_blue, },
+		yamlBlockMappingKey = {fg = C.blue, },
 }
 
 return Misc
