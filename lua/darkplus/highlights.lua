@@ -2,7 +2,7 @@ local highlights = {
 		Normal = {fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg, },
 		SignColumn = {bg = C.bg, },
 		MsgArea = {fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg, },
-		ModeMsg = {fg = C.fg, bg = C.alt_bg, },
+		ModeMsg = {fg = C.fg, bg = C.popup_back, },
 		MsgSeparator = {fg = C.fg, bg = C.bg, },
 		SpellBad = {fg = C.light_red, style = "underline", },
 		SpellCap = {fg = C.yellow, style = "underline", },
