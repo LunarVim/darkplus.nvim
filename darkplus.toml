@@ -11,11 +11,12 @@ alt_fg = '#a4a4a4'
 alt_bg = '#252525'
 
 line = '#3e3e3e'
-dark_gray = '#222222'
+dark_gray = '#404040'
 gray = '#808080'
 context = '#606060'
 light_gray = '#cccccc'
-menu_bg = '#242527'
+# menu_bg = '#242527'
+menu_bg = '#202123'
 
 red = '#D16969'
 blue = '#569CD6'
@@ -50,7 +51,7 @@ warn_bg = '#32302f'
 info_bg = '#1e3135'
 hint_bg = '#22323f'
 
-reference = '#464746'
+reference = '#363636'
 success_green = '#14C50B'
 folder_blue = '#42A5F5'
 
