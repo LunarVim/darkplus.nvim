@@ -423,9 +423,9 @@ StatusLineTerm = 'line'
 StatusLineTermNC = 'line'
 
 [IndentBlankline]
-IndentBlanklineContextChar = 'context'
+IndentBlanklineContextChar = 'context - b'
 IndentBlanklineContextStart = '- - u'
-IndentBlanklineChar = 'dark_gray'
+IndentBlanklineChar = 'dark_gray - b'
 # IndentBlanklineSpaceCharBlankline = 'info'
 # IndentBlanklineSpaceChar = 'cyan_test'
 
