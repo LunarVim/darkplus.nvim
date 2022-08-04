@@ -199,7 +199,11 @@ theme.set_highlights = function()
   hl(0, "markdownListMarker", { fg = c.blue, bg = 'NONE' })
   hl(0, "markdownOrderedListMarker", { fg = c.purple, bg = 'NONE' })
   hl(0, "markdownRule", { fg = c.gray, bg = 'NONE' })
-  hl(0, "markdownUrl", { fg = c.cyan, bg = 'NONE', underdotted=true, })
+  if vim.fn.has("nvim-0.7.3") == 1 then
+    hl(0, "markdownUrl", { fg = c.cyan, bg = 'NONE', underdotted=true, })
+  else
+    hl(0, "markdownUrl", { fg = c.cyan, bg = 'NONE', underdot=true, })
+  end
   hl(0, "markdownLinkText", { fg = c.blue, bg = 'NONE' })
   hl(0, "markdownFootnote", { fg = c.orange, bg = 'NONE' })
   hl(0, "markdownFootnoteDefinition", { fg = c.orange, bg = 'NONE' })
