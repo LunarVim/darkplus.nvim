@@ -200,7 +200,7 @@ theme.set_highlights = function()
   hl(0, "markdownOrderedListMarker", { fg = c.purple, bg = 'NONE' })
   hl(0, "markdownRule", { fg = c.gray, bg = 'NONE' })
   if vim.fn.has("nvim-0.7.3") == 1 then
-    hl(0, "markdownUrl", { fg = c.cyan, bg = 'NONE', underdotted=true, })
+    hl(0, "markdownUrl", { fg = c.cyan, bg = 'NONE', underdot=true, })
   else
     hl(0, "markdownUrl", { fg = c.cyan, bg = 'NONE', underdot=true, })
   end
