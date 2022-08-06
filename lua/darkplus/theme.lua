@@ -202,7 +202,7 @@ theme.set_highlights = function()
   if vim.fn.has("nvim-0.7.3") == 1 then
     hl(0, "markdownUrl", { fg = c.cyan, bg = 'NONE', underdot=true, })
   else
-    hl(0, "markdownUrl", { fg = c.cyan, bg = 'NONE', underdot=true, })
+    hl(0, "markdownUrl", { fg = c.cyan, bg = 'NONE', underdotted=true, })
   end
   hl(0, "markdownLinkText", { fg = c.blue, bg = 'NONE' })
   hl(0, "markdownFootnote", { fg = c.orange, bg = 'NONE' })
