@@ -360,10 +360,10 @@ TelescopeSelectionCaret = 'red ui2_blue'
 TelescopeMatching = 'info - bi'
 TelescopeBorder = 'alt_fg'
 TelescopeNormal = 'fg menu_bg'
-TelescopePromptTitle = "ui_orange"
 TelescopePromptPrefix = "hint"
-TelescopeResultsTitle = "orange"
-TelescopePreviewTitle = "orange"
+TelescopePromptTitle = "ui_orange - b"
+TelescopeResultsTitle = "ui_orange - b"
+TelescopePreviewTitle = "ui_orange - b"
 TelescopePromptCounter = "red"
 TelescopePreviewHyphen = "red"
 
