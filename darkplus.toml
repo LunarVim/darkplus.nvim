@@ -348,6 +348,7 @@ LspReferenceText = '- reference'
 LspReferenceWrite = '- reference'
 
 IlluminatedWordRead = 'link:LspReferenceRead'
+IlluminatedWordText = 'link:LspReferenceText'
 IlluminatedWordWrite = 'link:LspReferenceWrite'
 
 LspCodeLens = 'context - i'
