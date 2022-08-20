@@ -287,6 +287,8 @@ theme.set_highlights = function()
   hl(0, "LspReferenceRead", { fg = 'NONE', bg = c.reference })
   hl(0, "LspReferenceText", { fg = 'NONE', bg = c.reference })
   hl(0, "LspReferenceWrite", { fg = 'NONE', bg = c.reference })
+  hl(0, "IlluminatedWordRead", { link = 'LspReferenceRead' })
+  hl(0, "IlluminatedWordWrite", { link = 'LspReferenceWrite' })
   hl(0, "LspCodeLens", { fg = c.context, bg = 'NONE', italic=true, })
   hl(0, "LspCodeLensSeparator", { fg = c.context, bg = 'NONE', italic=true, })
 
