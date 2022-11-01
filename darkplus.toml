@@ -125,7 +125,7 @@ TabLineSel = 'fg line'
 TabLineFill = 'line line'
 
 [Code]
-Comment = 'gray'
+Comment = 'context'
 Variable = 'light_blue'
 String = 'orange'
 Character = 'orange'
@@ -149,7 +149,7 @@ Define = 'purple'
 Macro = 'blue'
 Debug = 'red'
 Title = 'blue - b'
-Label = 'fg'
+Label = 'blue'
 SpecialChar = 'orange'
 Delimiter = 'fg'
 SpecialComment = 'fg'
@@ -221,11 +221,11 @@ TSTypeBuiltin = 'cyan'
 TSAnnotation = 'blue'
 TSNamespace = 'cyan'
 TSSymbol = 'fg'
-TSField = 'link:Varable'
+TSField = 'link:Variable'
 TSProperty = 'light_blue'
 TSParameter = 'light_blue'
 TSParameterReference = 'light_blue'
-TSAttribute = 'light_blue'
+TSAttribute = 'cyan'
 TSText = 'fg'
 TSTagAttribute = 'light_blue - i'
 TSError = 'error'
@@ -347,6 +347,10 @@ LspReferenceRead = '- reference'
 LspReferenceText = '- reference'
 LspReferenceWrite = '- reference'
 
+IlluminatedWordRead = 'link:LspReferenceRead'
+IlluminatedWordText = 'link:LspReferenceText'
+IlluminatedWordWrite = 'link:LspReferenceWrite'
+
 LspCodeLens = 'context - i'
 LspCodeLensSeparator = 'context - i'
 
@@ -360,10 +364,10 @@ TelescopeSelectionCaret = 'red ui2_blue'
 TelescopeMatching = 'info - bi'
 TelescopeBorder = 'alt_fg'
 TelescopeNormal = 'fg menu_bg'
-TelescopePromptTitle = "ui_orange"
 TelescopePromptPrefix = "hint"
-TelescopeResultsTitle = "orange"
-TelescopePreviewTitle = "orange"
+TelescopePromptTitle = "ui_orange - b"
+TelescopeResultsTitle = "ui_orange - b"
+TelescopePreviewTitle = "ui_orange - b"
 TelescopePromptCounter = "red"
 TelescopePreviewHyphen = "red"
 
