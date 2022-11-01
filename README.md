@@ -1,6 +1,8 @@
 # darkplus.nvim
 darkplus inspired colorscheme written in lua.
 
+![header](./assets/Dark_PLUS.png)
+
 ## Showcase
 ![2022-10-05-21:52:55](https://user-images.githubusercontent.com/696094/194197308-3b5c1728-fc07-4b80-b30b-1d14c09d6656.png)
 ![2022-10-05-21:42:21](https://user-images.githubusercontent.com/696094/194197310-e2728711-43c3-49d4-b1f4-4db7cd3b2901.png)
