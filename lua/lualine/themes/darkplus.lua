@@ -9,7 +9,7 @@ local colors = {
   -- bg     = '#007acc',
   -- bg     = '#68217a',
   bg     = '#252525',
-  gray  = '#2c323d',
+  gray  = '#333333',
   -- light_gray  = '#5c6370',
   gray3  = '#3e4452',
 }
