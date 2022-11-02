@@ -392,6 +392,7 @@ theme.set_highlights = function()
   -- Bqf
   hl(0, "BqfPreviewBorder", { fg = c.fg, bg = 'NONE' })
   hl(0, "BqfPreviewRange", { fg = 'NONE', bg = c.ui2_blue })
+  hl(0, "BqfSign", { fg = c.ui_orange, bg = 'NONE' })
 
   -- Cmp
   hl(0, "CmpItemAbbrDeprecated", { fg = c.gray, bg = 'NONE', strikethrough = true, })
