@@ -663,6 +663,8 @@ hl(0, "NoiceCmdlinePopupBorder", { fg = c.hint, bg = "NONE" })
   hl(0, "jsonKeyword", { fg = c.blue, bg = 'NONE' })
   hl(0, "yamlBlockMappingKey", { fg = c.blue, bg = 'NONE' })
   hl(0, "tomlTSProperty", { fg = c.blue, bg = 'NONE' })
+  hl(0, "zshKSHFunction", { link = "Function" })
+  hl(0, "zshVariableDef", { link = "Constant" })
 end
 
 return theme
