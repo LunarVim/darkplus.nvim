@@ -31,5 +31,3 @@ return {
 		c = { bg = colors.bg, fg = colors.gray },
 	},
 }
-
-
