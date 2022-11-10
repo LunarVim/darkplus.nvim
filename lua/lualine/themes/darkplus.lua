@@ -4,7 +4,7 @@ local colors = {
   purple = '#c586c0',
   red1   = '#d16969',
   yellow = '#dcdcaa',
-  orange = '#ce9178',
+  orange = '#D7BA7D',
   fg     = '#ababab',
   -- bg     = '#007acc',
   -- bg     = '#68217a',
@@ -31,5 +31,3 @@ return {
 		c = { bg = colors.bg, fg = colors.gray },
 	},
 }
-
-
