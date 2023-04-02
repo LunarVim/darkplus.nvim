@@ -101,7 +101,7 @@ theme.set_highlights = function()
   hl(0, "Todo", { fg = c.magenta, bg = 'NONE', bold = true, })
   hl(0, "Error", { fg = c.error, bg = 'NONE', bold = true, })
   hl(0, "Statement", { fg = c.purple, bg = 'NONE' })
-  hl(0, "Identifier", { fg = c.fg, bg = 'NONE' })
+  hl(0, "Identifier", { fg = c.light_blue, bg = 'NONE' })
   hl(0, "PreCondit", { fg = c.purple, bg = 'NONE' })
   hl(0, "Special", { fg = c.orange, bg = 'NONE' })
 
