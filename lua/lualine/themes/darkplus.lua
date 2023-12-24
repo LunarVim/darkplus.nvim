@@ -8,8 +8,8 @@ local colors = {
   fg     = '#ababab',
   -- bg     = '#007acc',
   -- bg     = '#68217a',
-  bg     = '#252525',
-  gray  = '#333333',
+  bg     = '#181818',
+  gray  = '#2d2d2d',
   -- light_gray  = '#5c6370',
   gray3  = '#3e4452',
 }
@@ -31,3 +31,4 @@ return {
 		c = { bg = colors.bg, fg = colors.gray },
 	},
 }
+
