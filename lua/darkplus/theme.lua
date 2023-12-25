@@ -211,7 +211,7 @@ theme.set_highlights = function()
   hl(0, "LspCodeLensSeparator", { fg = c.light_gray, bg = 'NONE', italic = true, })
 
   -- LSP
-  hl(0, "LspInlayHint", { fg = c.indent_active, bg = 'NONE', italic = true, })
+  hl(0, "LspInlayHint", { fg = c.indent_active, bg = 'NONE' })
   hl(0, "DiagnosticUnnecessary", { fg = c.light_gray, bg = 'NONE' })
   hl(0, "DiagnosticHint", { fg = c.hint, bg = 'NONE' })
   hl(0, "DiagnosticInfo", { fg = c.info, bg = 'NONE' })
