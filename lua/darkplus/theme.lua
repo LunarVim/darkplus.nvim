@@ -60,7 +60,7 @@ theme.set_highlights = function()
   hl(0, "TabLineFill", { fg = c.alt_fg, bg = c.alt_bg })
   hl(0, "WinSeparator", { fg = c.light_gray, bg = 'NONE' })
 
-  hl(0, "Comment", { fg = c.green_1, bg = 'NONE', italic = true, })
+  hl(0, "Comment", { fg = c.light_gray, bg = 'NONE', italic = true, })
   hl(0, "Variable", { fg = c.blue_2, bg = 'NONE' })
   hl(0, "String", { fg = c.orange, bg = 'NONE' })
   hl(0, "Character", { fg = c.orange, bg = 'NONE' })
@@ -123,7 +123,7 @@ theme.set_highlights = function()
 
 
   -- Treesitter
-  hl(0, "@comment", { link = 'Comment' })
+  hl(0, "@comment", { fg = c.green_1, bg = 'NONE', italic = true, })
   hl(0, "@none", { fg = 'NONE', bg = 'NONE' })
   hl(0, "@preproc", { link = 'PreProc' })
   hl(0, "@define", { link = 'Define' })
@@ -193,7 +193,7 @@ theme.set_highlights = function()
   hl(0, "@tag", { link = 'Tag' })
   hl(0, "@tag.attribute", { fg = c.blue, bg = 'NONE', italic = true, })
   hl(0, "@tag.delimiter", { fg = c.dark_gray, bg = 'NONE' })
-  hl(0, "@lsp.type.comment", { link = 'Comment' })
+  hl(0, "@lsp.type.comment", { link = '@comment' })
   hl(0, "@lsp.type.enum", { link = 'Type' })
   hl(0, "@lsp.type.interface", { link = 'Type' })
   hl(0, "@lsp.type.keyword", { link = 'Keyword' })
@@ -561,6 +561,14 @@ theme.set_highlights = function()
   hl(0, "CurosorLineFolded", { link = 'Visual' })
   hl(0, "FoldColumn", { fg = c.indent, bg = 'NONE' })
   hl(0, "Folded", { fg = c.fg, bg = "#232e3a" })
+
+  -- Noice
+  hl(0, "NoiceCmdlineIcon", { link = 'DiagnosticSignInfo' })
+  hl(0, "NoiceCmdlinePopupBorder", { link = 'DiagnosticSignHint' })
+  hl(0, "NoiceCmdlinePopupTitle", { link = 'DiagnosticSignHint' })
+  hl(0, "NoiceFormatProgressDone", { fg = c.fg, bg = c.select })
+  hl(0, "NoiceCmdlinePrompt", { fg = c.fg, bg = "NONE" })
+  hl(0, "NoiceCmdlineIconSearch", { link = 'DiagnosticSignHint' })
 
 end
 
