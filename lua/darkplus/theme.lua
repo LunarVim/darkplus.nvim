@@ -282,8 +282,8 @@ theme.set_highlights = function()
 
   hl(0, "MatchWord", { fg = 'NONE', bg = c.reference })
   hl(0, "MatchWordCur", { fg = 'NONE', bg = c.reference })
-  hl(0, "MatchParen", { fg = 'NONE', bg = c.match_bg })
-  hl(0, "MatchParenCur", { fg = 'NONE', bg = c.match_bg })
+  hl(0, "MatchParen", { fg = 'NONE', bg = c.reference })
+  hl(0, "MatchParenCur", { fg = 'NONE', bg = c.reference })
 
   -- IndentBlankline
   hl(0, "IndentBlanklineChar", { fg = c.indent, bg = 'NONE' })
