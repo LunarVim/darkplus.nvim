@@ -469,8 +469,8 @@ theme.set_highlights = function()
   hl(0, "typescriptBraces", { fg = c.fg, bg = 'NONE' })
 
   -- CSS
-  hl(0, "@string.css", { fg = c.orange, bg = 'NONE' })
   hl(0, "@string.special.css", { fg = c.dark_yellow, bg = 'NONE' })
+  hl(0, "@type.definition.css", { fg = c.blue_2, bg = 'NONE' })
 
   -- Rust
   hl(0, "rustEnumVariant", { fg = c.cyan, bg = 'NONE' })
