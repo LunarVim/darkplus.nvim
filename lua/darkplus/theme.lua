@@ -212,7 +212,7 @@ theme.set_highlights = function()
 
   -- LSP
   hl(0, "LspInlayHint", { fg = c.indent_active, bg = 'NONE' })
-  hl(0, "DiagnosticUnnecessary", { fg = "#739db3", bg = 'NONE' })
+  hl(0, "DiagnosticUnnecessary", { fg = c.light_gray, bg = 'NONE' })
   hl(0, "DiagnosticHint", { fg = c.hint, bg = 'NONE' })
   hl(0, "DiagnosticInfo", { fg = c.info, bg = 'NONE' })
   hl(0, "DiagnosticWarn", { fg = c.warn, bg = 'NONE' })
