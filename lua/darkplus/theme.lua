@@ -130,7 +130,7 @@ theme.set_highlights = function()
   hl(0, "@operator", { link = 'Operator' })
   hl(0, "@punctuation.delimeter", { link = 'Delimiter' })
   hl(0, "@punctuation.bracket", { link = 'Delimiter' })
-  hl(0, "@punctuation.special", { fg = c.purple, bg = 'NONE' })
+  hl(0, "@punctuation.special", { fg = c.blue_1, bg = 'NONE' })
   hl(0, "@string", { link = 'String' })
   hl(0, "@string.regex", { link = 'String' })
   hl(0, "@string.escape", { link = 'SpecialChar' })
@@ -483,6 +483,8 @@ theme.set_highlights = function()
   hl(0, "rustEscape", { link = 'String' })
   hl(0, "@lsp.type.formatSpecifier.rust", { link = '@punctuation.special' })
   hl(0, "@lsp.mod.async.rust", { fg = c.purple, bg = 'NONE' })
+  hl(0, "@lsp.typemod.function.declaration.rust", { fg = c.yellow, bg = 'NONE' })
+
 
 
   -- Zsh
