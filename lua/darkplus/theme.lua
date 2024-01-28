@@ -486,6 +486,10 @@ theme.set_highlights = function()
   hl(0, "@lsp.typemod.function.declaration.rust", { fg = c.yellow, bg = 'NONE' })
   hl(0, "@type.qualifier.rust", { fg = c.blue_1, bg = 'NONE' })
   hl(0, "@lsp.typemod.method.reference.rust", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "@lsp.typemod.keyword.controlFlow.rust", { fg = c.purple, bg = 'NONE' })
+  hl(0, "@lsp.mod.library.rust", { fg = c.yellow, bg = 'NONE' })
+
+
 
 
 
