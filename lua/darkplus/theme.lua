@@ -490,14 +490,10 @@ theme.set_highlights = function()
   hl(0, "@lsp.typemod.decorator.library.rust", { fg = c.yellow, bg = 'NONE' })
   hl(0, "@lsp.typemod.function.async.rust", { fg = c.yellow, bg = 'NONE' })
 
+  -- toml
+  hl(0, "@type.toml", { fg = c.blue_1, bg = 'NONE' })
 
-
-
-
-
-
-
-  -- Zsh
+  -- zsh
   hl(0, "zshCommands", { fg = c.yellow, bg = 'NONE' })
   hl(0, "zshDeref", { fg = c.fg, bg = 'NONE' })
   hl(0, "zshShortDeref", { fg = c.fg, bg = 'NONE' })
