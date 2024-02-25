@@ -193,7 +193,7 @@ theme.set_highlights = function()
   hl(0, "@text.warning", { link = 'Todo' })
   hl(0, "@text.danger", { link = 'WarningMsg' })
   hl(0, "@tag", { link = 'Tag' })
-  hl(0, "@tag.attribute", { fg = c.blue, bg = 'NONE', italic = true, })
+  hl(0, "@tag.attribute", { fg = c.blue_2, bg = 'NONE', italic = true, })
   hl(0, "@tag.delimiter", { fg = c.dark_gray, bg = 'NONE' })
   hl(0, "@lsp.type.comment", { link = '@comment' })
   hl(0, "@lsp.type.enum", { link = 'Type' })
@@ -492,6 +492,9 @@ theme.set_highlights = function()
 
   -- toml
   hl(0, "@type.toml", { fg = c.blue_1, bg = 'NONE' })
+
+  -- html
+  hl(0, "@markup.heading.html", { fg = c.fg, bg = 'NONE' })
 
   -- zsh
   hl(0, "zshCommands", { fg = c.yellow, bg = 'NONE' })
