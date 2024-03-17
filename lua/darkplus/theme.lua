@@ -458,12 +458,11 @@ theme.set_highlights = function()
   hl(0, "@lsp.typemod.function.global.lua", { link = 'Function' })
   hl(0, "@lsp.typemod.variable.declaration.lua", { link = 'Variable' })
 
-
-
   -- Typescript
   hl(0, "@lsp.type.interface.typescriptreact", { fg = c.cyan, bg = 'NONE' })
   hl(0, "@lsp.type.namespace.typescriptreact", { fg = c.cyan, bg = 'NONE' })
   hl(0, "@lsp.typemod.variable.readonly.typescriptreact", { fg = c.blue_3, bg = 'NONE' })
+  hl(0, "@keyword.import.tsx", { fg = c.purple, bg = 'NONE' })
 
   hl(0, "typescriptArrowFuncArg", { fg = c.fg, bg = 'NONE' })
   hl(0, "typescriptCall", { fg = c.fg, bg = 'NONE' })
