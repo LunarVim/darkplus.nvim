@@ -60,7 +60,7 @@ theme.set_highlights = function()
   hl(0, "TabLineFill", { fg = c.alt_fg, bg = c.alt_bg })
   hl(0, "WinSeparator", { fg = c.light_gray, bg = 'NONE' })
 
-  hl(0, "Comment", { fg = c.light_gray, bg = 'NONE', italic = true, })
+  hl(0, "Comment", { fg = c.green_1, bg = 'NONE' })
   hl(0, "Variable", { fg = c.blue_2, bg = 'NONE' })
   hl(0, "String", { fg = c.orange, bg = 'NONE' })
   hl(0, "Character", { fg = c.orange, bg = 'NONE' })
@@ -123,7 +123,7 @@ theme.set_highlights = function()
 
 
   -- Treesitter
-  hl(0, "@comment", { fg = c.green_1, bg = 'NONE', italic = true, })
+  hl(0, "@comment", { link = 'Comment' })
   hl(0, "@none", { fg = 'NONE', bg = 'NONE' })
   hl(0, "@preproc", { link = 'PreProc' })
   hl(0, "@define", { link = 'Define' })
