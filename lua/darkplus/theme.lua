@@ -483,6 +483,9 @@ theme.set_highlights = function()
   hl(0, "@tag.tsx", { fg = c.cyan, bg = 'NONE' })
   hl(0, "@tag.jsx", { fg = c.cyan, bg = 'NONE' })
 
+  -- Javascript
+  hl(0, "@keyword.import.javascript", { fg = c.purple, bg = 'NONE' })
+
   -- CSS
   hl(0, "@string.special.css", { fg = c.dark_yellow, bg = 'NONE' })
   hl(0, "@type.definition.css", { fg = c.blue_2, bg = 'NONE' })
