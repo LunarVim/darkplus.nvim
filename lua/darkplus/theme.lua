@@ -288,9 +288,8 @@ theme.set_highlights = function()
   hl(0, "MatchParenCur", { fg = 'NONE', bg = c.visual })
 
   -- IndentBlankline
-  hl(0, "IndentBlanklineChar", { fg = c.indent, bg = 'NONE' })
-  hl(0, "IndentBlanklineContextChar", { fg = c.indent_active, bg = 'NONE' })
-  hl(0, "IndentBlanklineContextStart", { fg = 'NONE', bg = 'NONE', underline = true, })
+  hl(0, "IblIndent", { fg = c.indent, bg = 'NONE' })
+  hl(0, "IblScope", { fg = c.indent_active, bg = 'NONE' })
 
   -- Telescope
   hl(0, "TelescopeSelection", { fg = 'NONE', bg = c.select })
