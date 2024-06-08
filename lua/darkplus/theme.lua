@@ -339,6 +339,10 @@ theme.set_highlights = function()
   hl(0, "NvimTreeExecFile", { fg = c.ui_green, bg = 'NONE' })
 
   -- Git
+  hl(0, "diffAdded", { fg = c.diff_add, bg = 'NONE' })
+  hl(0, "diffRemoved", { fg = c.diff_delete, bg = 'NONE' })
+  hl(0, "diffNewFile", { fg = c.green_1, bg = 'NONE' })
+  hl(0, "diffOldFile", { fg = c.red, bg = 'NONE' })
   hl(0, "GitSignsAdd", { fg = c.gitsigns_add, bg = 'NONE' })
   hl(0, "GitSignsChange", { fg = c.gitsigns_change, bg = 'NONE' })
   hl(0, "GitSignsDelete", { fg = c.gitsigns_delete, bg = 'NONE' })
