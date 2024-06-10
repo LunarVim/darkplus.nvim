@@ -449,7 +449,7 @@ theme.set_highlights = function()
   hl(0, "@markup.list.markdown", { fg = c.blue_1, bg = 'NONE' })
   hl(0, "@punctuation.special.markdown", { fg = c.green, bg = 'NONE' })
   hl(0, "@markup.quote.markdown", { fg = c.fg, bg = 'NONE' })
-  hl(0, "@markup.link.url.markdown_inline", { link = 'Underlined' })
+  hl(0, "@markup.link.url.markdown_inline", { fg = c.fg, bg = 'NONE' })
   hl(0, "@markup.raw.markdown_inline", { fg = c.orange, bg = 'NONE' })
 
   -- Lua
