@@ -505,6 +505,13 @@ theme.set_highlights = function()
 
   -- html
   hl(0, "@markup.heading.html", { fg = c.fg, bg = 'NONE' })
+  hl(0, "@markup.heading.1.html", { fg = c.fg, bg = 'NONE' })
+  hl(0, "@markup.heading.2.html", { fg = c.fg, bg = 'NONE' })
+  hl(0, "@markup.heading.3.html", { fg = c.fg, bg = 'NONE' })
+  hl(0, "@markup.heading.4.html", { fg = c.fg, bg = 'NONE' })
+  hl(0, "@markup.heading.5.html", { fg = c.fg, bg = 'NONE' })
+  hl(0, "@markup.heading.6.html", { fg = c.fg, bg = 'NONE' })
+
 
   -- zsh
   hl(0, "zshCommands", { fg = c.yellow, bg = 'NONE' })
