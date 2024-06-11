@@ -515,6 +515,14 @@ theme.set_highlights = function()
   hl(0, "zshSubstDelim", { link = '@punctuation.special' })
   hl(0, "zshKSHFunction", { link = 'Function' })
 
+  -- nginx
+  hl(0, "ngxComment", { fg = c.green, bg = 'NONE' })
+  hl(0, "ngxDirective", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "ngxDirectiveThirdParty", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "ngxDirectiveBlock", { fg = c.blue_2, bg = 'NONE' })
+  hl(0, "ngxBlock", { fg = c.blue_2, bg = 'NONE' })
+  hl(0, "ngxDirectiveImportant", { fg = c.cyan, bg = 'NONE' })
+
   -- Lazy
   hl(0, "LazyButton", { fg = c.alt_fg, bg = "#2c3239" })
   hl(0, "LazyButtonActive", { fg = c.fg, bg = "#3c4249" })
